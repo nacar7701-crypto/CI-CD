@@ -1,0 +1,2 @@
+# Librería de pruebas (necesaria para el paso 'run: pytest tests.py')
+pytest
