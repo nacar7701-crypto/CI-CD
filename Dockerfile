@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copia el resto de tu código fuente al contenedor
 # Asumo que tu código principal está en la carpeta 'src'
 COPY src/ /app/src/
-COPY tests.py /app/
+COPY src/tests.py /app/
 
 # Comando para ejecutar la aplicación al iniciar el contenedor (ejemplo)
 # Reemplaza 'main.py' por tu archivo de inicio si es diferente
