@@ -1,2 +1,3 @@
 # Librería de pruebas (necesaria para el paso 'run: pytest tests.py')
-pytest
+pytest==8.3.4
+ruff==0.8.1

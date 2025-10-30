@@ -19,5 +19,8 @@ jobs:
         python-version: "3.11"
     - name: Install dependencies
       run: pip install -r scr/requirements.txt
+    - name: Check linting
+      working-directory: scr
+      run: ruff check .
     - name: Test with pytest
       run: pytest tests.py
