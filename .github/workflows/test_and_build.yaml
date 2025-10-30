@@ -35,5 +35,5 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ghcr.io/nacar7701-crypto/CI-CD:latest
+        tags: ghcr.io/nacar7701-crypto/ci-cd:latest
     
